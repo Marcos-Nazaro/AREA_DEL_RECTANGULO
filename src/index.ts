@@ -10,10 +10,10 @@ let inpL2 = document.getElementById("l2");
 let btncal = document.getElementById("btncal");
 let p = document.getElementById("parraf");
 let resultado = 0;
-let L1 = Number(inpL1.value);
-let L2 = Number(inpL2.value);
 
 btncal?.addEventListener("click", () => {
+  let L1 = Number(inpL1.value);
+  let L2 = Number(inpL2.value);  
   resultado = L1 * L2;
 
   p.innerText = `El area del rectanculo es: ${resultado}`;
